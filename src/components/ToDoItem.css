@@ -1,0 +1,23 @@
+.active{
+    text-decoration: line-through;
+    color:red
+}
+.main{
+    display :flex;
+    flex-direction: row;
+    width:170px;
+    border-bottom: 1px solid #ccc ;
+}
+.main:hover{
+    background-color:rgb(119, 192, 252);
+}
+.main .image{
+    height:11px;
+    width:11px;
+    margin-right:3px;
+    margin-left:3px;
+}
+.main .image:hover{
+  transform :scale(1.1);
+  transition: all (1s);
+}

@@ -1,0 +1,50 @@
+.App {
+  border-radius:6px;
+  width:170px;
+  height:276px;
+  background-color:rgb(205, 232, 253);
+  border:1px solid rgb(93, 180, 252);
+  padding:5px;
+  position: relative;
+  overflow-y: auto;
+}
+.listInMenu{
+  background-color:rgb(138, 251, 138);
+  list-style-type:none; 
+  width:130px;
+  display:none;
+  padding:5px;
+  flex-direction: column;
+  position: absolute;
+  bottom:10px; 
+  left:30px;
+}
+.listInMenu li:hover{
+  background-color:rgb(113, 255, 113);
+}
+.menu:hover .listInMenu{
+  display: block;
+}
+.menu:hover .menuIcon{
+  display:none;
+}
+.inputText{
+  width:165px;
+  height:18px;
+  background-color:rgb(242, 249, 255);
+  border:1px solid rgb(93, 180, 252);
+  border-radius:3px ;
+  border:1px solid rgb(211, 211, 211);
+}
+.inputText:focus{
+  outline:none;
+  background-color:rgb(232, 244, 255);
+}
+.menuIcon{
+  width: 23px;
+  height:23px;
+  position: absolute;
+  bottom: 10px;
+  left: 130px;
+}
+
